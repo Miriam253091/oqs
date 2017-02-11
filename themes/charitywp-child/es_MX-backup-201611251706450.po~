@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Charitywp Child\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-22 04:39+0000\n"
+"PO-Revision-Date: 2016-10-31 18:19+0000\n"
+"Last-Translator: Equipo Ojos que Sienten <miriamv@goigni.com>\n"
+"Language-Team: Spanish (Mexico)\n"
+"Language: es-MX\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Description of the theme
+msgid "Charitywp Child Theme"
+msgstr "Charitywp Tema Hijo"
+
+#. URI of the theme
+msgid "http://charitywp.thimpress.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "ThimPress"
+msgstr "ThimPress"
+
+#. Author URI of the theme
+msgid "http://thimpress.com"
+msgstr ""
+
+#. Name of the theme
+msgid "Charitywp Child"
+msgstr "Charitywp HIjo"

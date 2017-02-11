@@ -1,0 +1,284 @@
+/*
+ Theme Name:   Charitywp Child
+ Theme URI:    http://charitywp.thimpress.com/
+ Description:  Charitywp Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     charitywp
+ Version:      1.0.0
+ Text Domain:  charitywp-child
+*/
+
+/*
+ Theme Name:   Charitywp Child
+ Theme URI:    http://charitywp.thimpress.com/
+ Description:  Charitywp Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     charitywp
+ Version:      1.0.0
+ Text Domain:  charitywp-child
+*/
+
+/* Footer styles */
+.widget-footer-title {
+margin-bottom: 60px;
+}
+
+.menu-horizontal li {
+display: inline-block;
+margin-right: 25px;
+}
+
+.footer-social-border-color > div > div > div > ul > li{
+border-color: #fff !important;
+}
+
+/*Citas con comillas grandes */
+.comillas img{
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.comillas p{
+    display: inline-block;
+    width: 90%;
+    font-size: 28px;
+    line-height: 1.34;
+}
+.comillas p>img{
+width: 40px;
+}
+.autor-quote{
+float: right;
+width: 33.33%; 
+color: #cf0a2c;
+font-size: 18px;
+}
+ .autor-quote span{
+font-size: 14px;
+color: #424243;
+margin-top: 5px;
+margin-left: 25px;
+} 
+.autor-quote:before {
+content: "\2014 \2009";
+}
+
+/*Seccion Descubre*/
+
+.small-icon-oqs{
+    padding: 10px;
+}
+.small-icon-oqs img{
+display: inline-block;
+    width: 30px;
+    vertical-align: top;
+}
+.small-icon-oqs span{
+color:#cf0a2c;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+/*Seccion logros*/
+.logros {
+	text-align:center;
+	line-height: 1.3;
+	width: 75%;
+    margin: 0 auto;
+	}
+.logros img {
+	display:block;
+	margin: 5px auto;
+	}
+.logros strong {
+	display:block;
+	color: #cf0a2c;
+	font-size: 24px;
+	
+	}
+.down{
+	width: 50%;
+	margin: 20px auto 0;
+	}
+/*Form styles*/
+
+input, select, textarea {
+    font-size: 15px;
+    font-weight: 400;
+    font: 'Montserrat';
+}
+.name {
+width: 47%;
+width:  calc( ( 100% - 20px ) / 2)!important;
+display: inline;
+}
+.donate_form_layout input, .donate_form_layout textarea {
+    border: 1px solid #eee;
+    width: 100%;
+    margin-bottom: 30px !important;
+    line-height: 38px;
+    padding: 0 10px;
+    color: #999;
+    max-height: 200px;
+    min-height: 40px;
+    border-radius: 0;
+}
+
+.fluid-container {
+width:90%;
+}
+.form-popup .donate_form h2 {
+    color: #333333;
+	margin-top: 20px;
+}
+.form-popup .donate_form p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-popup {
+   /* display: none;*/
+    position: relative;
+    background: #f1f4f8;
+    padding: 20px;
+    width: auto;
+    min-width: 500px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-popup.active {
+    display: block;
+}
+
+.contact-footer {
+color: #fff;
+}
+
+.contact-footer:hover {
+color: #cf0a2c;
+}
+
+#msj-loader > img {
+display: block;
+margin: 10px auto; 
+}
+
+.donate_form_layout > p {
+text-align:center;
+}
+
+/*Formulario Pago Eventos*/
+.payment-warning {
+font-size:12px;
+color: #cf0a2c;
+}
+
+.cprivacy1 {
+margín-top: 15px;
+font-size:12px;
+}
+
+.img-b {
+    display: block;
+    margin: 10px auto;
+    max-width: 120px;
+}
+.main-b {
+text-align:center;
+margin: 15px auto 15px !important;
+}
+.main-b strong {
+font-size: 18px;
+}
+
+/* ESTILOS GENERALES y OVERIDE
+*/
+.thim-toggle-mobile-menu .inner:before, .thim-toggle-mobile-menu .inner:after {
+    background-color: #252525; !important}
+
+.thimpress_donate_button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.owl-item .item{
+    max-width: 150px !important;
+    padding: 10px;
+    max-height: 120px;
+}
+.owl-carousel .owl-item img {
+    width: auto !important;
+}
+
+
+.sow-image-container img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.thim-logo img.logo {
+    position: absolute;
+    top: -60px;
+max-width: 150px;
+}
+.thim-content-slider .slides-wrapper .scrollable>li .slide-content:before {
+    background: #98111c !important;
+}
+
+.thim-content-slider .control-nav {
+    color: #98111c !important;
+    border-color: #98111c !important;
+}
+
+.thim-content-slider .slides-wrapper .scrollable>li .slide-content {
+    border-color: #FFFFFF;
+    background-color: #fff;
+}
+
+.thim_header_style2 .toolbar-sidebar .thim-social ul li a {
+    border-color: #98111c;
+}
+.footer-social-border-color .thim-social ul li a {
+    border-color: #fff;
+}
+
+.counter-label {
+color: #333 !important;
+}
+
+.thumbnail {
+border: none !important;
+}
+
+.override {
+position: static !important;
+}
+
+.override-w {
+width:100% !important;
+}
+
+blockquote {
+border-left: none !important;
+}
+
+b, strong {
+	font-family:Montserrat !important;
+	font-weight: 400;
+	}
+	
+body {
+	line-height: 1.9 !important; 
+	}
+
+/*hkn*/    
+.single-galerias main#main{width: 100%!important;}
+.image_pool div.img_container{margin-bottom:30px;}
+.image_pool div.img_container img{height:240px;width:auto;}
+
+
