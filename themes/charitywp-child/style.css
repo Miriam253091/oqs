@@ -280,5 +280,7 @@ body {
 .single-galerias main#main{width: 100%!important;}
 .image_pool div.img_container{margin-bottom:30px;}
 .image_pool div.img_container img{height:240px;width:auto;}
+.sow-video-wrapper{text-align: center;}
+.so-widget-sow-video h3.widget-title{text-align: center;margin-top: 60px;}
 
 
