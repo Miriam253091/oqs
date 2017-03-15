@@ -194,7 +194,8 @@ margin: 15px auto 15px !important;
 font-size: 18px;
 }
 
-/* ESTILOS GENERALES y OVERRIDE
+/* 
+    ESTILOS GENERALES y OVERRIDE HK
 */
 .thim-toggle-mobile-menu .inner:before, .thim-toggle-mobile-menu .inner:after {background-color: #252525 !important;}
 .thimpress_donate_button {text-align: center;margin: 0 auto;display: block;}
@@ -226,3 +227,6 @@ body {line-height: 1.9 !important; }
 .tp-loop-wrap div.tp-mask-wrap h3{text-shadow:1px 1px 2px rgba(0,0,0,0.4);}
 .top_site_main .page-title-wrapper .heading__primary{color:#fff;text-shadow:1px 2px 1px rgba(0,0,0,0.4);}
 .thim_header_overlay .top_site_main{min-height:400px;}
+
+/*FORM BUTTONS*/
+#pg-5434-5{margin-top:60px;}
