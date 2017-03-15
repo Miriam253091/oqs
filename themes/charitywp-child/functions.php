@@ -185,11 +185,11 @@ function code_save( $post_id )
     if( isset( $_POST['auto_id'] ) )
         update_post_meta( $post_id, 'auto_id',  $_POST['auto_id'] );
 }
+/*\\*//*\\*//*\\*//*\\*//*\\*//*\\*/
+/*\\*//* REGISTER POST TYPE
+/*\\*//*\\*//*\\*//*\\*//*\\*//*\\*/
 
-/*register post types hkn*/
 	add_action('init', function(){
-
-
 		// GALERIA DE FOTOS
 		$labels = array(
 			'name'          => 'Galerías',
@@ -221,6 +221,38 @@ function code_save( $post_id )
 			'supports'           => array( 'title', 'editor', 'thumbnail' )
 		);
 		register_post_type( 'galerias', $args );
+
+		// PRENSA
+		$labels = array(
+			'name'          => 'Prensa',
+			'singular_name' => 'Prensa',
+			'add_new'       => 'Nueva Prensa',
+			'add_new_item'  => 'Nueva Prensa',
+			'edit_item'     => 'Editar Prensa',
+			'new_item'      => 'Nueva Prensa',
+			'all_items'     => 'Todas',
+			'view_item'     => 'Ver Prensa',
+			'search_items'  => 'Buscar Prensa',
+			'not_found'     => 'No se encontro',
+			'menu_name'     => 'Prensa'
+		);
+
+		$args = array(
+			'labels'             => $labels,
+			'public'             => true,
+			'publicly_queryable' => true,
+			'show_ui'            => true,
+			'show_in_menu'       => true,
+			'query_var'          => true,
+			'rewrite'            => array( 'slug' => 'prensa' ),
+			'capability_type'    => 'post',
+			'has_archive'        => true,
+			'hierarchical'       => false,
+			'menu_position'      => 6,
+			'taxonomies'         => array( 'category' ),
+			'supports'           => array( 'title', 'editor', 'thumbnail' )
+		);
+		register_post_type( 'prensa', $args );
 		
 
 	});
