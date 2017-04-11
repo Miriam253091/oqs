@@ -194,6 +194,7 @@ margin: 15px auto 15px !important;
 font-size: 18px;
 }
 
+
 /* 
     ESTILOS GENERALES y OVERRIDE HK
 */
@@ -230,3 +231,15 @@ body {line-height: 1.9 !important; }
 
 /*FORM BUTTONS*/
 #pg-5434-5{margin-top:60px;}
+
+/*Acerca image*/
+.page-id-5423 section.content-area div.thim-parallax-image{background-position:0px -300px!important;}
+.club_premier{position:absolute;top:4.5%;right:2%;z-index: 10;width:250px;height:auto;}
+.club_premier img{box-shadow: 2px 2px 2px rgba(255,255,255,0.3)}
+.club_premier img:hover{box-shadow: 3px 3px 3px rgba(255,255,255,0.5)}
+.club_premier p{margin-bottom:0px;}
+.ul_premier{background: white;position:relative;right:15px;width:250px;list-style:none;padding:0px 10px;}
+.ul_premier li a{color:#333333;font-size: 80%;}
+.ul_premier li a:hover{color:#cf0a2c;}
+.ul_premier li:first-child{border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:10px;}
+.ul_premier li:last-child{padding-top:10px;}

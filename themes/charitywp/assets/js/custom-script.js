@@ -2,6 +2,16 @@
     "use strict";
     $(document).ready(function () {
         thim_charitywp.init();
+
+        /*
+         * hk functions
+         * Dropdown club premier
+         */
+            $('.ul_premier').hide();
+         $('.club_premier').click(function(){
+            $('.ul_premier').slideToggle('slow');
+         });
+
     });
 
     var isInIFrame = (window.location != window.parent.location);
