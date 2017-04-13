@@ -234,6 +234,7 @@ body {line-height: 1.9 !important; }
 
 /*Acerca image*/
 .page-id-5423 section.content-area div.thim-parallax-image{background-position:0px -300px!important;}
+
 .club_premier{position:absolute;top:4.5%;right:2%;z-index: 10;width:250px;height:auto;}
 .club_premier img{box-shadow: 2px 2px 2px rgba(255,255,255,0.3)}
 .club_premier img:hover{box-shadow: 3px 3px 3px rgba(255,255,255,0.5)}
@@ -243,3 +244,23 @@ body {line-height: 1.9 !important; }
 .ul_premier li a:hover{color:#cf0a2c;}
 .ul_premier li:first-child{border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:10px;}
 .ul_premier li:last-child{padding-top:10px;}
+
+/*DONACIONES*/
+.club_premier_don{z-index: 10;width:100%;height:auto;}
+.club_premier_don img{box-shadow: 2px 2px 2px rgba(255,255,255,0.3);width:30%;height: auto;}
+.club_premier_don img:hover{box-shadow: 3px 3px 3px rgba(255,255,255,0.5)}
+.club_premier_don p{margin-bottom:0px;}
+.ul_premier_don{background: white;position:relative;right:15px;width:100%;list-style:none;padding:0px 10px;}
+.club_premier_don div{float:left;}
+.ul_premier_don li a{color:#333333;font-size: 80%;}
+.ul_premier_don li a:hover{color:#cf0a2c;}
+.ul_premier_don li:first-child{border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:10px;}
+.ul_premier_don li:last-child{padding-top:10px;}
+.ul_premier_don li{display:inline-block;}
+
+.textwidget div.img_prem{position:relative;height: 300px;overflow: hidden;}
+.textwidget div.img_prem img{position: absolute;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;height: 100%; width:auto;}
+.textwidget div.txt_prem{margin-top:30px;}
+
+
+
