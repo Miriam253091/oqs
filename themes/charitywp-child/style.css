@@ -262,5 +262,5 @@ body {line-height: 1.9 !important; }
 .textwidget div.img_prem img{position: absolute;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;height: 100%; width:auto;}
 .textwidget div.txt_prem{margin-top:30px;}
 
-
+.theiaStickySidebar{display:none!important;}
 
