@@ -185,10 +185,8 @@ function code_save( $post_id )
     if( isset( $_POST['auto_id'] ) )
         update_post_meta( $post_id, 'auto_id',  $_POST['auto_id'] );
 }
-/*\\*//*\\*//*\\*//*\\*//*\\*//*\\*/
-/*\\*//* REGISTER POST TYPE
-/*\\*//*\\*//*\\*//*\\*//*\\*//*\\*/
 
+/*register post types hkn*/
 	add_action('init', function(){
 		// GALERIA DE FOTOS
 		$labels = array(
@@ -204,7 +202,6 @@ function code_save( $post_id )
 			'not_found'     => 'No se encontro',
 			'menu_name'     => 'Galerías'
 		);
-
 		$args = array(
 			'labels'             => $labels,
 			'public'             => true,
@@ -221,47 +218,13 @@ function code_save( $post_id )
 			'supports'           => array( 'title', 'editor', 'thumbnail' )
 		);
 		register_post_type( 'galerias', $args );
-
-		// PRENSA
-		$labels = array(
-			'name'          => 'Prensa',
-			'singular_name' => 'Prensa',
-			'add_new'       => 'Nueva Prensa',
-			'add_new_item'  => 'Nueva Prensa',
-			'edit_item'     => 'Editar Prensa',
-			'new_item'      => 'Nueva Prensa',
-			'all_items'     => 'Todas',
-			'view_item'     => 'Ver Prensa',
-			'search_items'  => 'Buscar Prensa',
-			'not_found'     => 'No se encontro',
-			'menu_name'     => 'Prensa'
-		);
-
-		$args = array(
-			'labels'             => $labels,
-			'public'             => true,
-			'publicly_queryable' => true,
-			'show_ui'            => true,
-			'show_in_menu'       => true,
-			'query_var'          => true,
-			'rewrite'            => array( 'slug' => 'prensa' ),
-			'capability_type'    => 'post',
-			'has_archive'        => true,
-			'hierarchical'       => false,
-			'menu_position'      => 6,
-			'taxonomies'         => array( 'category' ),
-			'supports'           => array( 'title', 'editor', 'thumbnail' )
-		);
-		register_post_type( 'prensa', $args );
 		
-
 	});
 
 //GOOGLE ANALYTICS
 
 add_action('wp_footer', 'add_googleanalytics');
 function add_googleanalytics() { 
-// Paste your Google Analytics code from Step 4 here
 ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -269,8 +232,8 @@ function add_googleanalytics() {
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-83617143-1', 'auto');
-  ga('send', 'pageview');
+  // ga('create', 'UA-83617143-1', 'auto');
+  // ga('send', 'pageview');
 
 </script>
 <?php } 

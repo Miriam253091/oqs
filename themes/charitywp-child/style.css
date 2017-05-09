@@ -83,25 +83,25 @@ color:#cf0a2c;
 
 /*Seccion logros*/
 .logros {
-	text-align:center;
-	line-height: 1.3;
-	width: 75%;
+    text-align:center;
+    line-height: 1.3;
+    width: 75%;
     margin: 0 auto;
-	}
+    }
 .logros img {
-	display:block;
-	margin: 5px auto;
-	}
+    display:block;
+    margin: 5px auto;
+    }
 .logros strong {
-	display:block;
-	color: #cf0a2c;
-	font-size: 24px;
-	
-	}
+    display:block;
+    color: #cf0a2c;
+    font-size: 24px;
+    
+    }
 .down{
-	width: 50%;
-	margin: 20px auto 0;
-	}
+    width: 50%;
+    margin: 20px auto 0;
+    }
 /*Form styles*/
 
 input, select, textarea {
@@ -131,7 +131,7 @@ width:90%;
 }
 .form-popup .donate_form h2 {
     color: #333333;
-	margin-top: 20px;
+    margin-top: 20px;
 }
 .form-popup .donate_form p {
     text-align: center;
@@ -264,3 +264,7 @@ body {line-height: 1.9 !important; }
 
 .theiaStickySidebar{display:none!important;}
 
+/*GALERIAS*/
+.gallery_archive_post{width:calc(48% - 1px);float:left;margin-right:2%;margin-bottom:30px;}
+.gallery_archive_post div{width:100%;}
+.gallery_archive_post h2{font-size:30px;}
