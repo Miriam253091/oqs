@@ -14,7 +14,7 @@ get_header();?>
 					<a target="_blank" href="https://www.clubpremier.com/mx/utiliza/comparte-puntos-premier/instituciones-y-causas/ojos-que-sienten/">Si eres Socio Club Premier, ahora puedes ayudar a OQS usando tus puntos premia.</a>				
 				</li>
 				<li>
-					<a target="_blank" href="http://experiencias.clubpremier.com/es/experiencias/detalle/464">Utiliza tus Puntos Premier y activa tus sentidos en una Cena en la Obscuridad® especial para socios Club Premier.</a>
+					<a target="_blank" href="http://experiencias.clubpremier.com/es/experiencias/detalle/464">Utiliza tus Puntos Premier y activa tus sentidos en una Cata en la Obscuridad® especial para socios Club Premier.</a>
 				</li>
 			</ul>
 		</div>

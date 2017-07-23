@@ -155,7 +155,7 @@ if ( is_page() || is_home() || is_single('post')) {
 }
 
 
-$hide_title       = ( $hide_title === 'on' ) ? '1' : $hide_title;
+$hide_title = ( $hide_title === 'on' ) ? '1' : $hide_title;
  // css
 $c_css_style = $css_line = '';
 $c_css_style .= ( $text_color != '' ) ? 'color: ' . $text_color . ';' : '';
@@ -206,6 +206,9 @@ $c_css = 'style="background-image: url(' . $custom_url . ')"';
 								if ( is_single() ) {
 
 									$single_title = get_the_title( get_the_ID() );
+
+
+									echo ( $single_title != '' ) ? $single_title : "esta vacío";
 									
 									// Get post category info
 						            $category = get_the_category();
@@ -259,7 +262,9 @@ $c_css = 'style="background-image: url(' . $custom_url . ')"';
 								echo ( $subtitle != '' ) ? '<div class="banner-description"><p class="heading__secondary">' . $subtitle . '</p></div>' : '';
 			 				} else{
 								echo '<' . $typography . ' class="heading__primary">';
-								echo ( $custom_title != '' ) ? $custom_title : thim_the_archive_title();
+								if(get_post_type() == 'galerias'){echo "Catálogo fotográfico";}else{
+									echo ( $custom_title != '' ) ? $custom_title : thim_the_archive_title();
+								}
 								echo '</' . $typography . '>';
 								echo ( $subtitle != '' ) ? '<div class="banner-description"><p class="heading__secondary">' . $subtitle . '</p></div>' : '';
 							}
