@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+
+<?php 
+/*
+	template: cena
+*/
+get_header(); ?>
 	<section id="land_dark_dinner">
 		<header class="article_header">
 			<p class="subtitle">
