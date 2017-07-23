@@ -272,6 +272,22 @@ body {line-height: 1.9 !important; }
 .gallery_archive_post div{width:100%;}
 .gallery_archive_post h2{font-size:30px;}
 
+/*LANDING PAGE DARK DINNER*/
+.article_header p.subtitle{display:inline;border-top:3px double #ff0000;border-bottom:3px double #ff0000;padding: 10px;font-size: 180%;}
+.the_article{text-align: center;padding-top:60px;font-size: 120%;}
+.the_date{font-size: 180%;}
+._parr{font-size: 140%;}
+.oqs_data{font-size: 75%; color:#ff0000;}
+.mini_txt{font-size: 70%;}
+.sponsor_pool ul.sponsor_list{list-style: none;}
+ul.sponsor_list li{display:inline-block;width: 120px;padding:20px;}
+ul.sponsor_list li img{width:100%;}
+
+
+
+
+
+
 @media(max-width: 768px){
     .tp-loop-wrap div.tp-mask-wrap h3{color:#fff!important;}
     div.tp-caption.tp-layer-selectable{color:#fff!important;}
