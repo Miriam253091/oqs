@@ -279,9 +279,11 @@ body {line-height: 1.9 !important; }
 ._parr{font-size: 140%;}
 .oqs_data{font-size: 75%; color:#ff0000;}
 .mini_txt{font-size: 70%;}
-.sponsor_pool ul.sponsor_list{list-style: none;}
-ul.sponsor_list li{display:inline-block;width: 140px;padding:20px;}
-ul.sponsor_list li img{width:100%;}
+.sponsor_pool ul.sponsor_list{list-style: none;text-align: center;}
+ul.sponsor_list li{display:inline-block;width: 170px;padding:10px;height: 90px;}
+ul.sponsor_list li img{height:100%;width:auto;}
+.sponsor_pool ul.ul_4{height: 80px;}
+.sponsor_pool ul.ul_3 li:last-child img{width: 100%;height: auto;}
 
 
 
