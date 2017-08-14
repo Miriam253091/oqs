@@ -1,25 +1,18 @@
 <?php 
-
-
 	$theme_options_data = get_theme_mods();
 	$column = (int) (isset($theme_options_data['thim_archive_column']) ? $theme_options_data['thim_archive_column'] : 2);
 	if (isset($_GET['column'])) {
 		$column = $_GET['column'];
 	}
 	$col = 'col-xs-6 col-md-'. (12 / $column);
-
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class($col); ?>>
 	<div class="content-inner">
-		
 		<?php thim_feature_image(420, 300, 'thumbnail'); ?>
-		
 		<header class="entry-header">
 			<?php thim_entry_meta(); ?>
 			<?php the_title( sprintf( '<h2 class="blog_title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 		</header>
-
-		
 		<div class="entry-content">
 			<?php
 			if ( has_post_format( 'link' ) && thim_meta( 'thim_url' ) && thim_meta( 'thim_text' ) ) {
@@ -32,7 +25,6 @@
 
 							<h3>
 					</header>
-
 				<?php
 				}
 				?>

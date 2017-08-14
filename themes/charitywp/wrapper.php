@@ -3,9 +3,12 @@
 if ( is_page_template( 'page-templates/homepage.php' ) || is_page_template( 'page-templates/comingsoon.php' ) ) {
 	$file = thim_template_path();
 	include $file;
-
 	return;
-} else {
+} else if(is_page('concierto-en-la-oscuridad') || is_page('perros') ){
+	get_header('landing'); 
+		get_template_part('inc/templates/concierto', 'oscuridad');
+	get_footer('landing');
+}else {
 	$file = thim_template_path();
 	get_header();
 	?>

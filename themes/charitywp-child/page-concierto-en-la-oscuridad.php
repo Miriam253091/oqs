@@ -3,7 +3,7 @@
 /*
 	template: cena
 */
-get_header(); ?>
+get_header('landing'); ?>
 	<section id="land_dark_dinner">
 		<header class="article_header">
 			<p class="subtitle">
@@ -29,7 +29,7 @@ get_header(); ?>
 			<div class="sponsor_pool">
 				<ul class="sponsor_list ul_1" >
 					<li class="sponsor_item">
-						<img src="http://localhost:8888/OQS/wp-content/uploads/2017/07/HSBC.jpg">
+						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/07/HSBC.jpg">
 					</li>
 					<li class="sponsor_item">
 						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/02_chubs.png">
@@ -74,3 +74,4 @@ get_header(); ?>
 			</div>
 		</article>
 	</section>
+<?php get_footer('landing'); ?>	

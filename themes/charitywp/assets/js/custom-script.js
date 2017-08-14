@@ -8,7 +8,7 @@
          * Dropdown club premier
          */
             $('.ul_premier').hide();
-         $('.club_premier').click(function(){
+            $('.club_premier').click(function(){
             $('.ul_premier').slideToggle('slow');
          });
 
