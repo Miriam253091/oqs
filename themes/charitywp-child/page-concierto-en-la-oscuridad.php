@@ -1,8 +1,8 @@
 
 <?php 
-/*
-	template: cena
-*/
+/**
+ * Template Name: darkdinner
+ */
 get_header('landing'); ?>
 	<section id="land_dark_dinner">
 		<header class="article_header">

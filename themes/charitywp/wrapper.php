@@ -4,9 +4,17 @@ if ( is_page_template( 'page-templates/homepage.php' ) || is_page_template( 'pag
 	$file = thim_template_path();
 	include $file;
 	return;
-} else if(is_page('concierto-en-la-oscuridad') || is_page('perros') ){
+} else if(is_page('concierto-en-la-oscuridad')){
 	get_header('landing'); 
 		get_template_part('inc/templates/concierto', 'oscuridad');
+	get_footer('landing');
+}else if(is_page('artistas') ){
+	get_header('landing');
+		get_template_part('inc/templates/concierto', 'artistas');
+	get_footer('landing');
+}else if( is_page('apoya-causa') ){
+	get_header('landing');
+		get_template_part('inc/templates/concierto', 'apoya');
 	get_footer('landing');
 }else {
 	$file = thim_template_path();

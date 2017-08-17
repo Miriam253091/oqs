@@ -281,7 +281,7 @@ div.lan_sides{display:inline-block;width:calc(50% - 40px);margin:0px;vertical-al
 .the_lilborder{background: #d00a2d;width:5%; height: 3px; margin:0 auto;}
 .the_lilborder_w{background: #fff;width:5%; height: 3px; margin:0 auto;}
 
-#landing_header{position:fixed;top:0px left:0px;right:0px;z-index: 9;width:100%;}
+#landing_header{position:fixed;top:0px; left:0px;right:0px;z-index: 9;width:100%;}
 #landing_header header{width: 100%; height: 130px;}
 #landing_header header ul{list-style: none;}
 #landing_header header ul li{display: inline-block;margin:45px 20px;}
@@ -298,8 +298,9 @@ figure.retrato{width:1024px;height:835px;position:relative;top:0px;right: 0px;}
 figcaption.caption{height:100%;background-color:transparent;position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:15%;color:#fff;}
 figcaption.caption h2{color:#fff;}
 
-figure.retrato_artista{width:547px;height:auto;position:relative;top:0px;right: 0px;}
-figcaption.caption_interactive{height:100%;background-color:rgba(208,10,45,0.3);position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:15%;color:#fff;}
+figure.retrato_artista{width:100%;height:auto;position:relative;top:0px;right: 0px;}
+figure.retrato_artista section.imagen{text-align: center;}
+figcaption.caption_interactive{height:100%;background-color:rgba(208,10,45,0.3);position:absolute;top:0px;left: 3.5%;width: 93%;text-align: center;padding-top:15%;color:#fff;}
 figcaption.caption_interactive h2{color:#fff;}
 .caption_interactive a.go_bio{border: 1px solid white;border-radius: 20px;padding:10px;color:#fff;}
 
@@ -327,11 +328,22 @@ div.color_div h2{color:#fff;text-align: center;}
 .become p{padding-top:35px;}
 
 /*FOOTER CONTACT LIST*/
-#landing_footer{background: #d00a2d;}
+#landing_footer{background: #fff;}
 #footer_contact_list{width:80%;margin:0 auto;text-align: justify;padding-top:20px;}
 #footer_contact_list li{display:inline-block;width:calc(33% - 10px);}
+#footer_contact_list li a, #footer_contact_list li a i{color:#000;}
 #footer_contact_list:after{content:'';width: 100%;display: inline-block;}
+.fc_item a i{margin-right: 5px;}
 
+/*ARTISTAS*/
+.page-template-page-artistas section#artistas_page{padding-top:130px;}
+.page-template-page-artistas section#artistas_page div.normal-div{padding-top: 130px;}
+.page-template-page-artistas section#artistas_page ul.ar_list{width:90%;margin:130px auto;list-style: none;}
+.page-template-page-artistas section#artistas_page ul.ar_list li.ar_item{box-shadow: 2px 2px 5px rgba(0,0,0,0.3);border:1px solid rgba(0,0,0,0.02);margin-bottom:90px;}
+.page-template-page-artistas section#artistas_page article.ar_article div.ar_sides{display: inline-block;vertical-align: top;}
+.page-template-page-artistas section#artistas_page article.ar_article div.ar_img{width:22%;}
+.page-template-page-artistas section#artistas_page article.ar_article div.ar_bio{width:77%;padding:20px;}
+.page-template-page-artistas section#artistas_page article.ar_article div.ar_sides h2{text-align: left;margin:0px;}
 
 
 
