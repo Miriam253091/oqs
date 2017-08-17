@@ -336,8 +336,8 @@ div.color_div h2{color:#fff;text-align: center;}
 .fc_item a i{margin-right: 5px;}
 
 /*ARTISTAS*/
-.page-template-page-artistas section#artistas_page{padding-top:130px;}
-.page-template-page-artistas section#artistas_page div.normal-div{padding-top: 130px;}
+section#artistas_page, section#apoya_page{padding-top:130px;}
+section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-top: 130px;}
 .page-template-page-artistas section#artistas_page ul.ar_list{width:90%;margin:130px auto;list-style: none;}
 .page-template-page-artistas section#artistas_page ul.ar_list li.ar_item{box-shadow: 2px 2px 5px rgba(0,0,0,0.3);border:1px solid rgba(0,0,0,0.02);margin-bottom:90px;}
 .page-template-page-artistas section#artistas_page article.ar_article div.ar_sides{display: inline-block;vertical-align: top;}
