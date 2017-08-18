@@ -294,19 +294,23 @@ div.lan_sides{display:inline-block;width:calc(50% - 40px);margin:0px;vertical-al
 #landing_main div div.title_side h1{color:#fff;padding-top:20px;padding-left:50px;}
 #landing_main div div.title_side h1 span{color:#d00a2d;}
 
-figure.retrato{width:1024px;height:835px;position:relative;top:0px;right: 0px;}
+figure.retrato{width:1024px;height:835px;position:relative;top:0px;right: 0px;overflow: hidden;}
+figure.retrato section.imagen{width:auto;height:100%; position:absolute;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;background: url(./images/landing/handsup-concert.jpg);}
+/*figure.retrato section.imagen img{}*/
 figcaption.caption{height:100%;background-color:transparent;position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:15%;color:#fff;}
 figcaption.caption h2{color:#fff;}
 
 figure.retrato_artista{width:100%;height:auto;position:relative;top:0px;right: 0px;}
-figure.retrato_artista section.imagen{text-align: center;}
-figcaption.caption_interactive{height:100%;background-color:rgba(208,10,45,0.3);position:absolute;top:0px;left: 3.5%;width: 93%;text-align: center;padding-top:15%;color:#fff;}
-figcaption.caption_interactive h2{color:#fff;}
+figure.retrato_artista section.imagen{text-align: center;position: relative;top:0;left:0;overflow: hidden;width: 350px;height: 350px;}
+figure.retrato_artista section.imagen img{position: absolute;width: 100%; height: auto;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;}
+figcaption.caption_interactive{height:100%;background-color:rgba(208,10,45,0.3);position:absolute;top:0;left:0;width: 93%;text-align: center;padding:15% 5%;color:#fff;}
+figcaption.caption_interactive h2{color:#fff;font-size:24px;}
+figcaption.caption_interactive p.txt{font-size:140%;text-align: center;}
 .caption_interactive a.go_bio{border: 1px solid white;border-radius: 20px;padding:10px;color:#fff;}
 
 #acerca_concierto{padding:170px 0px;}
 
-div.normal-div h2{text-align: center;color:#d00a2d;}
+div.normal-div h2, .ap_sides h3{text-align: center;color:#d00a2d;}
 div.color_div h2{color:#fff;text-align: center;}
 
 #acerca_concierto div.normal-div div.lan_sides{margin-top:135px;padding:0px 50px;vertical-align: middle;}
@@ -345,8 +349,34 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
 .page-template-page-artistas section#artistas_page article.ar_article div.ar_bio{width:77%;padding:20px;}
 .page-template-page-artistas section#artistas_page article.ar_article div.ar_sides h2{text-align: left;margin:0px;}
 
+/*APOYA*/
+.ap_sides{display: inline-block;width: calc(50% - 10px);padding:0px 20px;}
+.ap_sides h3{text-align: left;}
+.ap_sides ul.side_ul{display: inline-block;list-style: none;}
+.ap_sides ul.side_ul li i{color:#d00a2d;margin-right: 10px;font-size: 30px;}
+.ap_sides ul.side_ul li{margin:10px 0px;}
+.normal-div div.sides_block{width: 80%;margin:120px auto;}
+.quote_div{width:100%;height: 300px;background:#d00a2d;text-align: center;padding:50px 40px;}
+.quote_div p, .quote_div h3{color:#fff;font-size: 140%;}
+.hidden_ul{list-style: none;width: 80%;margin:120px auto;}
+.hidden_ul li{margin:30px 0px;}
+.clickable{cursor: pointer;}
+.clickable div:first-child{border-left:5px solid #d00a2d;padding-left:30px;}
+.hidden_ul div.tab_header p{font-size: 25px;color:#d00a2d;font-weight: bold;}
+.hidden_ul div.tab_header p i{ margin:0px 10px;font-size: 30px}
+.hidden_ul div.tab_header p span{float:right;}
+.plegable h3{font-size: 140%; font-weight: bold;}
+.plegable ul{list-style: none;}
+.plegable ul li::before{content: '•'; color:#d00a2d;}
+.plegable ul li span{padding-left:30px;}
+.last_titles{width:94%;margin:0 auto;}
+.last_titles p{font-weight:bold;}
 
 
+@media(max-width: 1280px){
+    #landing_main div.cutted_div{height: 460px;}
+    figure.retrato{height:545px;}
+}
 
 
 @media(max-width: 768px){

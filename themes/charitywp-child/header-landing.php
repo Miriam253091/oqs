@@ -39,7 +39,7 @@
 			<header class="darkblue_bg">
 				<ul>
 					<li>
-						<a href="#landing_main">Inicio</a>
+						<a href="<?php echo bloginfo('url').'/concierto-en-la-oscuridad'; ?>">Inicio</a>
 					</li>
 					<li>
 						<a href="<?php echo bloginfo('url').'/artistas'; ?>">Artistas</a>

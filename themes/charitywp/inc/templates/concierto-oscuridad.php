@@ -7,9 +7,7 @@
 		</div>
 		<div class="lan_sides">
 			<figure class="retrato">
-				<section class="imagen">
-					<img src="http://placehold.it/1024x835">
-				</section>	
+				<section class="imagen"></section>	
 				<figcaption class="caption">
 					<i class="fa fa-map-o" aria-hidden="true"></i>
 					<h2>Lugar</h2>
@@ -18,7 +16,7 @@
 					<h2>Fecha</h2>
 					<p class="txt"> 10 de Octubre 2017</p>
 				</figcaption>	
-			</figure> 
+			</figure>
 		</div>
 	</div>
 </section>
@@ -27,9 +25,8 @@
 	<div class="normal-div">
 		<h2>Acerca del evento</h2>
 		<div class="the_lilborder"></div>
-
 		<div class="lan_sides">
-			<img src="http://placehold.it/937x595">
+			<img src="<?php echo get_template_directory_uri().'/images/landing/cello1.jpeg';?>">
 		</div>
 		<div class="lan_sides">
 			<p>
@@ -56,7 +53,7 @@
 			<li class="artist_item">
 				<figure class="retrato_artista">
 					<section class="imagen">
-						<img src="http://placehold.it/547x590">
+						<img src="<?php echo esc_url(get_template_directory_uri().'/images/landing/faustopalma.png'); ?>">
 					</section>	
 					<figcaption class="caption_interactive">
 						<h2>Fausto Palma</h2>
@@ -69,7 +66,7 @@
 			<li class="artist_item">
 				<figure class="retrato_artista">
 					<section class="imagen">
-						<img src="http://placehold.it/547x590">
+						<img src="<?php echo esc_url(get_template_directory_uri().'/images/landing/graue.png'); ?>">
 					</section>	
 					<figcaption class="caption_interactive">
 						<h2>Maricarmen Graue</h2>
@@ -82,7 +79,7 @@
 			<li class="artist_item">
 				<figure class="retrato_artista">
 					<section class="imagen">
-						<img src="http://placehold.it/547x590">
+						<img src="<?php echo esc_url(get_template_directory_uri().'/images/landing/maria-carmen.png'); ?>">
 					</section>	
 					<figcaption class="caption_interactive">
 						<h2>María del Carmen Camarena</h2>
