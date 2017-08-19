@@ -58,7 +58,7 @@
 					<figcaption class="caption_interactive">
 						<h2>Fausto Palma</h2>
 						<p class="txt">Compositor y mult-instrumentalista mexicano.</p>
-						<a href="" class="go_bio">Ver biogarfía</a>
+						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biogarfía</a>
 					</figcaption>	
 				</figure>
 			</li>
@@ -71,7 +71,7 @@
 					<figcaption class="caption_interactive">
 						<h2>Maricarmen Graue</h2>
 						<p class="txt">Chelista ex-alumna de Ojos que Sienten A.C.</p>
-						<a href="" class="go_bio">Ver biogarfía</a>
+						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biogarfía</a>
 					</figcaption>	
 				</figure>
 			</li>
@@ -84,7 +84,7 @@
 					<figcaption class="caption_interactive">
 						<h2>María del Carmen Camarena</h2>
 						<p class="txt">Cantante, lingüista y docente mexicana</p>
-						<a href="" class="go_bio">Ver biogarfía</a>
+						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biogarfía</a>
 					</figcaption>	
 				</figure>
 			</li>

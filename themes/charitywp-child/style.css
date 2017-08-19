@@ -300,10 +300,10 @@ figure.retrato section.imagen{width:auto;height:100%; position:absolute;top:-999
 figcaption.caption{height:100%;background-color:transparent;position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:15%;color:#fff;}
 figcaption.caption h2{color:#fff;}
 
-figure.retrato_artista{width:100%;height:auto;position:relative;top:0px;right: 0px;}
+figure.retrato_artista{width:350px;height:350px;margin:0 auto;position: relative;}
 figure.retrato_artista section.imagen{text-align: center;position: relative;top:0;left:0;overflow: hidden;width: 350px;height: 350px;}
 figure.retrato_artista section.imagen img{position: absolute;width: 100%; height: auto;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;}
-figcaption.caption_interactive{height:100%;background-color:rgba(208,10,45,0.3);position:absolute;top:0;left:0;width: 93%;text-align: center;padding:15% 5%;color:#fff;}
+figcaption.caption_interactive{height:100%;background-color:rgba(208,10,45,0.3);position:absolute;top:0;left:0;width: 100%;text-align: center;padding:15% 5%;color:#fff;}
 figcaption.caption_interactive h2{color:#fff;font-size:24px;}
 figcaption.caption_interactive p.txt{font-size:140%;text-align: center;}
 .caption_interactive a.go_bio{border: 1px solid white;border-radius: 20px;padding:10px;color:#fff;}
@@ -352,11 +352,11 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
 /*APOYA*/
 .ap_sides{display: inline-block;width: calc(50% - 10px);padding:0px 20px;}
 .ap_sides h3{text-align: left;}
-.ap_sides ul.side_ul{display: inline-block;list-style: none;}
+.ap_sides ul.side_ul{display: inline-block;list-style: none;margin:0px;width: calc(50% - 10px);}
 .ap_sides ul.side_ul li i{color:#d00a2d;margin-right: 10px;font-size: 30px;}
 .ap_sides ul.side_ul li{margin:10px 0px;}
-.normal-div div.sides_block{width: 80%;margin:120px auto;}
-.quote_div{width:100%;height: 300px;background:#d00a2d;text-align: center;padding:50px 40px;}
+.normal-div div.sides_block{width: 90%;margin:120px auto;}
+.quote_div{width:100%;height: auto;background:#d00a2d;text-align: center;padding:30px 50px;}
 .quote_div p, .quote_div h3{color:#fff;font-size: 140%;}
 .hidden_ul{list-style: none;width: 80%;margin:120px auto;}
 .hidden_ul li{margin:30px 0px;}
