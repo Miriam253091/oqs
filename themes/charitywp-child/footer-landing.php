@@ -21,4 +21,20 @@
 			</div>
 		</section>
 	</footer>
+	<section class="overscreen darkblue_bg" id="lan_mobile_menu">
+		<ul>
+			<li>
+				<a href="<?php echo bloginfo('url').'/concierto-en-la-oscuridad'; ?>">Inicio</a>
+			</li>
+			<li>
+				<a href="<?php echo bloginfo('url').'/artistas'; ?>">Artistas</a>
+			</li>
+			<li>
+				<a href="<?php echo bloginfo('url'). '/apoya-causa'; ?>">Apoya la causa</a>
+			</li>
+			<li>
+				<a href="<?php echo esc_url( site_url() ); ?>">Fundación Ojos que Sienten</a>
+			</li>
+		</ul>
+	</section>
 </html>	

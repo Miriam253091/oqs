@@ -322,7 +322,7 @@ div.normal-div h2, div.color_div h2{font-size: 4vw;}
 #acerca_concierto div.normal-div div.lan_sides p.emphasis{font-size: 150%;}
 
 #artistas_concierto{padding:170px 0px;}
-#artistas_concierto ul.artists_list{margin:130px 0px 0px 0px;text-align: justify;min-width: 620px;padding:0px 50px;}
+#artistas_concierto ul.artists_list{margin:130px 0px 0px 0px;text-align: justify;min-width: 620px;padding:0px 50px;list-style: none;}
 .artists_list li{display: inline-block;width:calc(33% - 10px);}
 #artistas_concierto ul.artists_list:after{content:'';width: 100%;display: inline-block;}
 
@@ -377,6 +377,12 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
 .last_titles{width:94%;margin:0 auto;}
 .last_titles p{font-weight:bold;}
 
+/*MOBILE MENU*/
+.overscreen{width:70%;padding:20px;position:absolute;top:0;left:0;z-index: 998;}
+.overscreen ul{list-style: none;margin:20px 0px 0px 0px;width: 100%;}
+.hamburguer{margin:0px;position: absolute;top:10px; left:10px;z-index: 999;list-style: none;}
+.hamburguer li{width:30px;height: 5px; background:#d00a2d;margin:3px 0px;}
+
 
 @media(max-width: 1280px){
     #landing_main div.cutted_div{height: 460px;}
@@ -384,13 +390,16 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
 }
 
 @media(max-width:1024px){
+    #landing_header{display: none;}
+    #landing_main{padding-top: 0px;}
     #acerca_concierto div.normal-div div.lan_sides{vertical-align: top;padding:0px 10px;}
     div.cutted_div div.lan_sides{width: 100%;display:block;}
     div.lan_sides.title_side{position: absolute;top:130;left:0;z-index: 1;padding: 0px 40px;}
     div.lan_sides figcaption.caption{text-align: right;padding:160px 40px;}
     .mob_img{display: block;}
-    .des_img{display: none;}*/
-    /*#acerca_concierto div.normal-div div:nth-of-type(2){display:none;}*/
+    .des_img{display: none;}
+    #landing_main div div.title_side h1{font-size: 8vw;}
+
 }
 
 
@@ -398,4 +407,13 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
     .tp-loop-wrap div.tp-mask-wrap h3{color:#fff!important;}
     div.tp-caption.tp-layer-selectable{color:#fff!important;}
     .club_premier{position:relative;margin:0 auto 20px auto;}
+}
+
+@media(max-width: 414px){
+    .page-template-page-concierto-en-la-oscuridad h2{font-size: 5vw!important;}
+    #acerca_concierto div.normal-div div:nth-of-type(2){display:none;}
+    div.lan_sides{width:100%;}
+    .artists_list li{width: 100%;display: block;margin:30px 0px;}
+    #artistas_concierto ul.artists_list{min-width: 320px;}
+    #footer_contact_list li{display: block;width: 100%;}
 }
