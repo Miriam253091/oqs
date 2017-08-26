@@ -390,7 +390,7 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
 }
 
 @media(max-width:1024px){
-    #landing_header{display: none;}
+    .lan_des_menu{display: none;}
     #landing_main{padding-top: 0px;}
     #acerca_concierto div.normal-div div.lan_sides{vertical-align: top;padding:0px 10px;}
     div.cutted_div div.lan_sides{width: 100%;display:block;}
@@ -416,4 +416,9 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
     .artists_list li{width: 100%;display: block;margin:30px 0px;}
     #artistas_concierto ul.artists_list{min-width: 320px;}
     #footer_contact_list li{display: block;width: 100%;}
+    section#artistas_page, section#apoya_page{padding-top:0px;}
+    section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-top:0px;}
+    .ap_sides{display: block;width: 100%;}
+    .hidden_ul div.tab_header p{font-size: 15px;}
+
 }

@@ -36,7 +36,12 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<section id="landing_header">
-			<header class="darkblue_bg">
+			<ul class="hamburguer lan_menu_show">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<header class="darkblue_bg lan_des_menu">
 				<ul>
 					<li>
 						<a href="<?php echo bloginfo('url').'/concierto-en-la-oscuridad'; ?>">Inicio</a>
