@@ -275,11 +275,13 @@ body {line-height: 1.9 !important; }
 /*LANDING PAGE DARK DINNER*/
 /*.article_header p.subtitle{display:inline;border-top:3px double #ff0000;border-bottom:3px double #ff0000;padding: 10px;font-size: 180%;}.the_article{text-align: center;padding-top:60px;font-size: 120%;}.the_date{font-size: 180%;}._parr{font-size: 140%;}.oqs_data{font-size: 75%; color:#ff0000;}.mini_txt{font-size: 70%;}.sponsor_pool ul.sponsor_list{list-style: none;text-align: center;}ul.sponsor_list li{display:inline-block;width: 170px;padding:10px;height: 90px;}ul.sponsor_list li img{height:100%;width:auto;}.sponsor_pool ul.ul_4{height: 80px;}.sponsor_pool ul.ul_3 li:last-child img{width: 100%;height: auto;}*/
 
+.page-template-page-concierto-en-la-oscuridad h2{font-size: 3vw!important;}
 .txt{font-size: 180%;}
 div.lan_sides{display:inline-block;width:calc(50% - 40px);margin:0px;vertical-align: top;}
 .darkblue_bg{background: #151a2d;}
 .the_lilborder{background: #d00a2d;width:5%; height: 3px; margin:0 auto;}
 .the_lilborder_w{background: #fff;width:5%; height: 3px; margin:0 auto;}
+.mob_img{display: none;}
 
 #landing_header{position:fixed;top:0px; left:0px;right:0px;z-index: 9;width:100%;}
 #landing_header header{width: 100%; height: 130px;}
@@ -290,18 +292,19 @@ div.lan_sides{display:inline-block;width:calc(50% - 40px);margin:0px;vertical-al
 #landing_header .selected{color:#dd3333;}
 
 #landing_main{padding-top:130px;}
-#landing_main div.cutted_div{height: 650px;}
-#landing_main div div.title_side h1{color:#fff;padding-top:20px;padding-left:50px;}
+#landing_main div.cutted_div{height: 650px;text-align: center;}
+div.lan_sides.title_side{text-align: left;}
+#landing_main div div.title_side h1{color:#fff;padding-top:20px;width: 100%;font-size: 3vw;}
 #landing_main div div.title_side h1 span{color:#d00a2d;}
 
 figure.retrato{width:1024px;height:835px;position:relative;top:0px;right: 0px;overflow: hidden;}
-figure.retrato section.imagen{width:auto;height:100%; position:absolute;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;background: url(./images/landing/handsup-concert.jpg);}
+figure.retrato section.imagen{width:auto;height:100%; position:absolute;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;background: url(./images/landing/handsup-concert.jpg);background-position: center;background-repeat: no-repeat;}
 /*figure.retrato section.imagen img{}*/
-figcaption.caption{height:100%;background-color:transparent;position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:15%;color:#fff;}
+figcaption.caption{height:100%;background-color:rgba(0,0,0,0.5);position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:15%;color:#fff;}
 figcaption.caption h2{color:#fff;}
 
-figure.retrato_artista{width:350px;height:350px;margin:0 auto;position: relative;}
-figure.retrato_artista section.imagen{text-align: center;position: relative;top:0;left:0;overflow: hidden;width: 350px;height: 350px;}
+figure.retrato_artista{width:100%;height:350px;margin:0 auto;position: relative;}
+figure.retrato_artista section.imagen{text-align: center;position: relative;top:0;left:0;overflow: hidden;width: 100%;height: 350px;}
 figure.retrato_artista section.imagen img{position: absolute;width: 100%; height: auto;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;}
 figcaption.caption_interactive{height:100%;background-color:rgba(208,10,45,0.3);position:absolute;top:0;left:0;width: 100%;text-align: center;padding:15% 5%;color:#fff;}
 figcaption.caption_interactive h2{color:#fff;font-size:24px;}
@@ -312,7 +315,7 @@ figcaption.caption_interactive p.txt{font-size:140%;text-align: center;}
 
 div.normal-div h2, .ap_sides h3{text-align: center;color:#d00a2d;}
 div.color_div h2{color:#fff;text-align: center;}
-
+div.normal-div h2, div.color_div h2{font-size: 4vw;}
 #acerca_concierto div.normal-div div.lan_sides{margin-top:135px;padding:0px 50px;vertical-align: middle;}
 #acerca_concierto div.normal-div div.lan_sides p strong{font-weight: bold;}
 #acerca_concierto div.normal-div div.lan_sides p strong span{color:#d00a2d;}
@@ -330,6 +333,8 @@ div.color_div h2{color:#fff;text-align: center;}
 #patrocinadores td img{max-height: 159px;}
 .become{color:#fff;background:#d00a2d;width:100%;height: 105px;text-align: center;}
 .become p{padding-top:35px;}
+.become p a{border:2px solid white;border-radius: 15px;padding:3px 8px;color:#fff;}
+.los_chicos img{height: 100px;}
 
 /*FOOTER CONTACT LIST*/
 #landing_footer{background: #fff;}
@@ -376,6 +381,16 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
 @media(max-width: 1280px){
     #landing_main div.cutted_div{height: 460px;}
     figure.retrato{height:545px;}
+}
+
+@media(max-width:1024px){
+    #acerca_concierto div.normal-div div.lan_sides{vertical-align: top;padding:0px 10px;}
+    div.cutted_div div.lan_sides{width: 100%;display:block;}
+    div.lan_sides.title_side{position: absolute;top:130;left:0;z-index: 1;padding: 0px 40px;}
+    div.lan_sides figcaption.caption{text-align: right;padding:160px 40px;}
+    .mob_img{display: block;}
+    .des_img{display: none;}*/
+    /*#acerca_concierto div.normal-div div:nth-of-type(2){display:none;}*/
 }
 
 

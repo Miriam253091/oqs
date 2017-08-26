@@ -26,7 +26,8 @@
 		<h2>Acerca del evento</h2>
 		<div class="the_lilborder"></div>
 		<div class="lan_sides">
-			<img src="<?php echo get_template_directory_uri().'/images/landing/cello1.jpeg';?>">
+			<img class="des_img" src="<?php echo get_template_directory_uri().'/images/landing/cello1.jpeg';?>">
+			<img class="mob_img" src="<?php echo get_template_directory_uri().'/images/landing/cello2.jpg';?>">
 		</div>
 		<div class="lan_sides">
 			<p>
@@ -34,7 +35,7 @@
 			</p>
 			<p class="emphasis">
 				<strong>
-					<span>Concierto Sensorial en la Oscuridad</span><br>Un viaje a trevés de la música del <br>mundo donde los sentidos te llevarán<br>de la Oscuridad a la Luz.
+					<span>Concierto Sensorial en la Oscuridad</span><br>Un viaje a través de la música del <br>mundo donde los sentidos te llevarán<br>de la Oscuridad a la Luz.
 				</strong>
 			</p>
 			<p>
@@ -58,7 +59,7 @@
 					<figcaption class="caption_interactive">
 						<h2>Fausto Palma</h2>
 						<p class="txt">Compositor y mult-instrumentalista mexicano.</p>
-						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biogarfía</a>
+						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biografía</a>
 					</figcaption>	
 				</figure>
 			</li>
@@ -71,7 +72,7 @@
 					<figcaption class="caption_interactive">
 						<h2>Maricarmen Graue</h2>
 						<p class="txt">Chelista ex-alumna de Ojos que Sienten A.C.</p>
-						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biogarfía</a>
+						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biografía</a>
 					</figcaption>	
 				</figure>
 			</li>
@@ -84,7 +85,7 @@
 					<figcaption class="caption_interactive">
 						<h2>María del Carmen Camarena</h2>
 						<p class="txt">Cantante, lingüista y docente mexicana</p>
-						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biogarfía</a>
+						<a href="<?php echo bloginfo('').'/artistas'; ?>" class="go_bio">Ver biografía</a>
 					</figcaption>	
 				</figure>
 			</li>
