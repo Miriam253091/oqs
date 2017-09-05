@@ -2,7 +2,7 @@
 	<div class="cutted_div">
 		<div class="lan_sides title_side">
 			<h1>
-				10º<br>aniversario<br><span class="diff_col">concierto<br>en la<br>oscuridad<span>
+				Concierto en <br>la oscuridad<br><span class="diff_col">Ojos que <br>sienten.<span>
 			</h1>
 		</div>
 		<div class="lan_sides">
@@ -15,6 +15,7 @@
 					<i class="fa fa-calendar-o" aria-hidden="true"></i>
 					<h2>Fecha</h2>
 					<p class="txt"> 10 de Octubre 2017</p>
+					<p class="txt">20 horas</p>
 				</figcaption>	
 			</figure>
 		</div>
@@ -41,6 +42,7 @@
 			<p>
 				Vivirás una experiencia llena de contrastes entre luz, oscuridad, <br>metáforas e impulsos sensoriales llevados a través de la <br>música de extraordinarios músicos mexicanos. Este evento servirá<br>para recaudación de fondos y generación de empleo para personas<br>con discapacidad visual.
 			</p>
+			<br><span><em>Evento para recaudación de fondos.</em></span>
 		</div>
 	</div>	
 </section>
@@ -93,85 +95,86 @@
 	</div>
 </section>
 
+<a href="http://reservacion.ojosquesienten.org/Eventos/2017/10-octubre/">
+	<div id="dd_boletos">
+		<p>COMPRA TUS BOLETOS</p>
+	</div>
+</a>
+
 <section id="aliados_concierto">
 	<div class="normal-div">
 		<h2>Patrocinadores y aliados</h2>
 		<div class="the_lilborder"></div>
-		<table id="patrocinadores">
+		<span>Evento patrocinado por:</span>
+		<table class="patrocinadores">
 			<tr>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/07/HSBC.jpg">
+					<a href="https://www.hsbc.com.mx" target="_blank">
+						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/HSBC.png">
 					</a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/02_chubs.png">
+					<a href="https://www2.chubb.com/mx-es/">
+						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/CHUBB.png">
 					</a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/03_qualcom.png">
+					<a href="https://www.qualcomm.com/" target="_blank">
+						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/MONEX2.png">
 					</a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/04_monex.png">
+					<a href="https://www.monex.com.mx/portal/" target="_blank">
+						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/QUALCOMM.png">
 					</a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/05_cinepolis.png">
+					<a href="http://www.cinepolis.com/" target="_blank">
+						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/CINEPOLIS.png">
+					</a>
+				</td>
+				<td>
+					<a href="www.intercontinental.com/SitioOficial/HoteldeLujo‎" target="_blank">
+						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/PRSIDENTE.png">
 					</a>
 				</td>
 			</tr>
-			<tr>
+		</table>
+
+		<span>Con el apoyo de:</span>
+		<table class="patrocinadores">
+			<tr class="medianos">
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2016/08/Intercontinental-150.jpg">
-					</a>
+					<a href="http://www.canon.com.mx/" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/CANON2.png"></a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/07_manpower.png">
-					</a>
+					<a href="http://charitypulse.com/" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/CHARITY_PLUS_2.png"></a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/08_cannon.png">
-					</a>
+					<a href="http://ddbmexico.com/" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/DDB.png"></a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://localhost:8888/OQS/wp-content/uploads/2017/08/gex.png">
-					</a>
-				</td>
-				<td>
-					<a href="">
-						<img src="http://localhost:8888/OQS/wp-content/uploads/2017/08/dbb.png">
-					</a>
+					<a href="http://www.maestrodobel.com/" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/DOBEL.png"></a>
 				</td>
 			</tr>
-			<tr>
+
+			<tr class="chicos">
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/07/lunario.jpg">
-					</a>
+					<a href="http://grupoexpansion.mx/" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/EXPANSION.png"></a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://localhost:8888/OQS/wp-content/uploads/2017/08/dobel.png">
-					</a>
+					<a href="#idea" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/IDEA.png"></a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/07/charityPulse-logo-4Creators01.png">
-					</a>
+					<a href="http://www.lunario.com.mx/" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/LUNARIO.png"></a>
 				</td>
 				<td>
-					<a href="">
-						<img src="http://www.ojosquesienten.com/wp-content/uploads/2017/08/12_sda.png">
-					</a>
+					<a href="https://www.manpower.com" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/MANPOWER.png"></a>
+				</td>				
+			</tr>
+			<tr class="chicos">
+				<td>
+					<a href="http://sdacomunicacion.com/" target="_blank"><img src="http://www.ojosquesienten.com/wp-content/uploads/2017/09/SDA.png"></a>
 				</td>
 			</tr>
 		</table>

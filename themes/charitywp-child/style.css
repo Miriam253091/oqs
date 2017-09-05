@@ -300,7 +300,7 @@ div.lan_sides.title_side{text-align: left;}
 figure.retrato{width:1024px;height:835px;position:relative;top:0px;right: 0px;overflow: hidden;}
 figure.retrato section.imagen{width:auto;height:100%; position:absolute;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;background: url(./images/landing/handsup-concert.jpg);background-position: center;background-repeat: no-repeat;}
 /*figure.retrato section.imagen img{}*/
-figcaption.caption{height:100%;background-color:rgba(0,0,0,0.5);position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:15%;color:#fff;}
+figcaption.caption{height:100%;background-color:rgba(0,0,0,0.5);position:absolute;top:0px;left: 0px;width: 100%;text-align: center;padding-top:6%;color:#fff;}
 figcaption.caption h2{color:#fff;}
 
 figure.retrato_artista{width:100%;height:350px;margin:0 auto;position: relative;}
@@ -328,13 +328,16 @@ div.normal-div h2, div.color_div h2{font-size: 4vw;}
 
 /*TABLE*/
 #aliados_concierto{padding:170px 0px 0px 0px;}
-#patrocinadores{table-layout: fixed;width:90%;margin:130px auto;}
-#patrocinadores td{width:20%;max-height:150px;text-align: center;}
-#patrocinadores td img{max-height: 159px;}
+.patrocinadores{table-layout: fixed;width:90%;margin:60px auto;}
+.patrocinadores td{width:20%;max-height:150px;text-align: center;}
+.patrocinadores td img{max-height: 159px;}
 .become{color:#fff;background:#d00a2d;width:100%;height: 105px;text-align: center;}
 .become p{padding-top:35px;}
 .become p a{border:2px solid white;border-radius: 15px;padding:3px 8px;color:#fff;}
-.los_chicos img{height: 100px;}
+.patrocinadores tr.medianos td img{max-height: 70px;}
+.patrocinadores tr.chicos td img{max-height: 50px;}
+#aliados_concierto span{padding:40px;}
+#aliados_concierto div.the_lilborder{margin-bottom:130px;}
 
 /*FOOTER CONTACT LIST*/
 #landing_footer{background: #fff;}
@@ -353,6 +356,12 @@ section#artistas_page div.normal-div, section#apoya_page div.normal-div{padding-
 .page-template-page-artistas section#artistas_page article.ar_article div.ar_img{width:22%;}
 .page-template-page-artistas section#artistas_page article.ar_article div.ar_bio{width:77%;padding:20px;}
 .page-template-page-artistas section#artistas_page article.ar_article div.ar_sides h2{text-align: left;margin:0px;}
+
+/*DARK DINNER BOLETOS*/
+#dd_boletos{width: 100%; height: 60px;}
+#dd_boletos p{color:#fff; font-weight: bold;text-align: center;line-height: 60px;background: #d00a2d;width: 100%;}
+#dd_boletos p:hover{color:#d00a2d;background:#151a2d;border-top: 1px solid #d00a2d;box-shadow: 0px 2px 5px rgba(0,0,0,0.4);}
+
 
 /*APOYA*/
 .ap_sides{display: inline-block;width: calc(50% - 10px);padding:0px 20px;}

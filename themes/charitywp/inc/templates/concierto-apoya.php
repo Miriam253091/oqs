@@ -242,5 +242,10 @@
 			</li>
 		</ul>
 
-	</div>	
+	</div>
+	<a href="http://reservacion.ojosquesienten.org/Eventos/2017/10-octubre/">
+		<div id="dd_boletos">
+			<p>BOLETOS INDIVIDUALES</p>
+		</div>
+	</a>
 </section>
