@@ -29,7 +29,9 @@
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-91771961-3', 'auto');
+      ga('create', 'UA-83617143-1', 'auto', 'myTracker');
       ga('send', 'pageview');
+      ga('myTracker.send', 'pageview');
 
     </script>
 <!-- Silverpoop Tracking -->
